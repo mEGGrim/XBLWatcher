@@ -1,0 +1,158 @@
+--- !ruby/object:XboxLiveWatcher 
+achievementsHash: 
+  ? !binary "44OJ44Oq44O844Og44Kv44Op44OW\n"
+  : 
+    - "1146095600"
+    - 300
+
+  Left 4 Dead: 
+  - "1161889840"
+  - 645
+  ? !binary "44Oi44Oz44K544K/44O844OP44Oz44K/44O8IOODleODreODs+ODhuOCo+OC\n\
+    oiDjgqrjg7Pjg6njgqTjg7M=\n"
+  : 
+    - "1128466429"
+    - 91
+
+  BAYONETTA: 
+  - "1397032979"
+  - 500
+  BioShock 2 (JPN): 
+  - "1414793319"
+  - 790
+  The Orange Box: 
+  - "1161889807"
+  - 55
+  ? !binary "44OR44O844OV44Kn44Kv44OI44OA44O844Kv\n"
+  : 
+    - "1480657346"
+    - 15
+
+  ? !binary "44Oi44OA44Oz44O744Km44Kp44O844OV44Kn44KiMg==\n"
+  : 
+    - "1096157207"
+    - 1000
+
+  BLAZBLUE CS: 
+  - "1096222682"
+  - 240
+  "Hitman: Blood Money": 
+  - "1396901851"
+  - 25
+  ? !binary "6Zu76ISz5oim5qmf44OQ44O844OB44Oj44Ot44OzIOOCquODqeODiOODquOC\n\
+    quODu+OCv+ODs+OCsOODqeODoA==\n"
+  : 
+    - "1480657285"
+    - 65
+
+  ? !binary "44Kx44OE44KkIO+9nue1huWcsOeNhOOBn+OBoe+9niBFWFRSQQ==\n"
+  : 
+    - "1180043217"
+    - 140
+
+  "Halo 3: ODST": 
+  - "1297287287"
+  - 20
+  DEAD RISING: 
+  - "1128466386"
+  - 1000
+  ? !binary "5oCS6aaW6aCY6JyCIOWkp+W+qea0uyB2ZXIxLjU=\n"
+  : 
+    - "1129973724"
+    - 155
+
+  "Mirror's Edge\xE2\x84\xA2": 
+  - "1161889872"
+  - 500
+  Gears of War 2 (JP): 
+  - "1297287368"
+  - 205
+  Gears of War: 
+  - "1297287125"
+  - 100
+  Assassin's Creed: 
+  - "1431504852"
+  - 215
+  ? !binary "44OG44Kk44Or44K6IOOCquODliDjg7Tjgqfjgrnjg5rjg6rjgqI=\n"
+  : 
+    - "1313671145"
+    - 730
+
+  Fallout 3: 
+  - "1112737749"
+  - 1550
+  "Fallout: New Vegas": 
+  - "1112737760"
+  - 1000
+  ? !binary "44OQ44Kk44Kq44K344On44OD44Kv\n"
+  : 
+    - "1414793247"
+    - 1000
+
+  ARMORED CORE4: 
+  - "1179846614"
+  - 80
+  Halo 3: 
+  - "1297287142"
+  - 0
+  Stranglehold(JP): 
+  - "1398081490"
+  - 25
+  BLAZBLUE: 
+  - "1096288213"
+  - 470
+  ? !binary "QkM644Oe44K544K/44O8ROW+qea0u+ioiOeUuw==\n"
+  : 
+    - "1480657207"
+    - 0
+
+  ? !binary "44K344Ol44O844OG44Kj44Oz44KwIOODqeODluOAgu+8ku+8kO+8kO+8uA==\n"
+  : 
+    - "1413941201"
+    - 100
+
+  Dead Rising 2: 
+  - "1128466412"
+  - 1000
+  ESPGALUDA2: 
+  - "1129973720"
+  - 285
+  ? !binary "44Kz44O844OrIOOCquODliDjg4fjg6Xjg7zjg4bjgqMg44OW44Op44OD44Kv\n\
+    44Kq44OX44K5\n"
+  : 
+    - "1096157269"
+    - 1000
+
+  STEINS;GATE: 
+  - "1180043224"
+  - 1000
+  ? !binary "44CO44Kz44O844OrIOOCquODliDjg4fjg6Xjg7zjg4bjgqM044CP\n"
+  : 
+    - "1096157158"
+    - 1000
+
+  AC for Answer: 
+  - "1179846618"
+  - 610
+  ? !binary "5paR6bOp\n"
+  : 
+    - "1480657016"
+    - 40
+
+lastActivateTime: 2011-01-11 22:17:52.210564 +09:00
+lastPrintStatusTime: 2011-01-11 21:08:30.772863 +09:00
+status: 
+  gamePerfectScore: "1000"
+  body: !binary |
+    44Kz44O844OrIOOCquODliDjg4fjg6Xjg7zjg4bjgqMg44OW44Op44OD44Kv
+    44Kq44OX44K5IC0g44Oh44Kk44Oz44Oh44OL44Ol44O8
+
+  gameTotalScore: "1000"
+  gameStatus: !binary |
+    44Oh44Kk44Oz44Oh44OL44Ol44O8
+
+  gameTitle: !binary |
+    44Kz44O844OrIOOCquODliDjg4fjg6Xjg7zjg4bjgqMg44OW44Op44OD44Kv
+    44Kq44OX44K5
+
+  totalScore: 15951
