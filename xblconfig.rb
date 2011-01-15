@@ -6,13 +6,15 @@ class XBLWatcherConfig
 	def initialize
 		@accountHash = Hash.new
 		@messageHash = Hash.new
+
+		configDirName = File.dirname(__FILE__) + '/config'
 		
-		if !File.exist?(ENV['HOME'] + '/.xblwatcher') then 
-			abort('Directory ' + ENV['HOME'] + '/.xblwatcher is not exist')
+		if !File.exist?(configDirName) then 
+			abort('Directory ' + configDirName + ' is not exist')
 		end
 
 		# カレントディレクトリを移動
-		Dir.chdir(ENV['HOME'] + '/.xblwatcher')
+		Dir.chdir(configDirName)
 
 		# account.yamlが存在していれば設定をロードする
 		if File.exist?('account.yaml') then

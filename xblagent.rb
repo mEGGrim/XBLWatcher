@@ -58,10 +58,17 @@ class XboxLiveAgent
 		if !page then return nil end
 		status = page.search("div#CurrentActivity").inner_text
 		if status.strip! == "" then status = "オフライン" end
-		status = {'body' => status, 'gameTitle' => '', 'gameStatus' => ''}
-		point = page/'/html/body/div/div[2]/div/div/div/div/div'
-		point = point[0].inner_text.to_i
-		return [status, point]
+		status = {'body' => status, 'gameTitle' => '', 'gameStatus' => '', 'totalScore' => 0, 'gameTotalScore' => 0, 'gamePerfectScore' => 0}
+		totalPoint = page/'/html/body/div/div[2]/div/div/div/div/div'
+		status['totalScore']= totalPoint[0].inner_text.to_i
+		# ページに表示されてる左端のゲームのスコアを取得
+		if status['body'] != 'オフライン' then
+			scores = page/'/html/body/div/div[2]/div/div/div[5]/div[1]/div/div[2]/div'
+			scores = scores.inner_text.match(/([0-9]*)\/([0-9]*)/)
+			status['gameTotalScore'] = scores.to_a[1]
+			status['gamePerfectScore'] = scores.to_a[2]
+		end
+		return status
 	end
 	
 	def getAllGameAchievementsScore()
